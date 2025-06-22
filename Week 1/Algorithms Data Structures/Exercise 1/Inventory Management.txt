@@ -1,0 +1,27 @@
+Why are Data Structures & Algorithms important here?
+
+-Inventory systems need to search, add, update, and delete products efficiently.
+-Proper data structures ensure fast access, low memory usage, and better scalability.
+-Algorithms help optimize these operations for large-scale inventory.
+
+
+Suitable Data Structures:
+
+-ArrayList
+-HashMap
+
+
+Analysis:
+Time Complexity (Using HashMap):
+
+Operation      Time Complexity
+Add	       O(1) average
+Update	       O(1) average
+Delete	       O(1) average
+Display All    O(n)
+
+
+Optimization Tips:
+- Load factor tuning if performance degrades on very large inventories.
+- For persistence, connect to a database instead of memory storage.
+- Use ConcurrentHashMap for thread-safe operations in real-time environments.

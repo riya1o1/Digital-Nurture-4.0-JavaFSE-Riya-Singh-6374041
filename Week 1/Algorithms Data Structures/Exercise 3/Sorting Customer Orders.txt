@@ -1,0 +1,25 @@
+Understand Sorting Algorithms:
+Algorithm	Best Case	Average Case	Worst Case	Notes
+Bubble Sort	O(n)	        O(n²)	        O(n²)	        Simple but inefficient for large datasets
+Insertion Sort	O(n)	        O(n²)	        O(n²)	        Good for small or nearly sorted data
+Quick Sort	O(n log n)	O(n log n)	O(n²)       	Fastest in practice, but not stable
+Merge Sort	O(n log n)	O(n log n)	O(n log n)	Stable and efficient, but uses extra space
+
+For this task, we will implement Bubble Sort and Quick Sort.
+
+Analysis & Comparison:
+
+Feature  	Bubble Sort	        Quick Sort
+Time (Best)	O(n)	                O(n log n)
+Time (Average)	O(n²)	                O(n log n)
+Time (Worst)	O(n²)	                O(n²)
+Space	        O(1)	                O(log n) (stack)
+Stable	        Yes	                No
+Practical Use	Slow for large data	Fastest for large data
+
+
+Why is Quick Sort better?
+-Faster on large datasets.
+-Uses divide and conquer strategy to minimize comparisons.
+-Bubble sort becomes extremely slow as data grows.
+

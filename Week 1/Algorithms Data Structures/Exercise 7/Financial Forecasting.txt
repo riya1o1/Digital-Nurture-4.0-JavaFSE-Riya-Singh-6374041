@@ -1,0 +1,23 @@
+What is Recursion?
+-Recursion is a programming technique where a method calls itself to solve smaller instances of the same problem.
+-Each recursive call reduces the problem size until it reaches a base case.
+
+Why Use Recursion?
+It simplifies problems that have repetitive patterns, such as computing compound growth, factorials, or Fibonacci sequences.
+
+Analysis:
+Version	               Time Complexity	 Space Complexity	Notes
+Naive Recursion	       O(n)	         O(n) (call stack)	Calls itself n times
+With Memoization       O(n)	         O(n) (array + stack)	Avoids recomputation
+
+Why Optimize Recursion?
+-Recursion is elegant but can lead to stack overflow for large n.
+-Memoization (caching intermediate results) avoids repeated work and improves performance.
+
+When to Use Recursion in Forecasting:
+Use recursion when:
+-The relationship is naturally recursive (e.g., compound interest).
+-The depth is small, or memoization is used.
+-Avoid naive recursion when:
+-The recursion depth is large.
+-Performance or memory usage is a concern.

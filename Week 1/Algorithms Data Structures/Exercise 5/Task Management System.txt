@@ -1,0 +1,24 @@
+Types of Linked Lists:
+
+Type	                Structure
+Singly Linked List	Each node points to the next node only
+Doubly Linked List	Each node points to both next and previous nodes
+
+Singly Linked List is simple and memory-efficient, good for forward traversal.
+
+
+Analysis:
+
+Operation	Time Complexity	   Reason
+Add	        O(n)	           Traverse to end to insert
+Search	        O(n)	           Linear search
+Traverse	O(n)	           Visit all nodes
+Delete	        O(n)	           Search + re-link nodes
+
+Advantages of Linked Lists Over Arrays:
+
+Feature	        Array	        Linked List
+Size	        Fixed size	Dynamic size
+Insert/Delete	Costly (O(n))	Efficient (O(1) at head)
+Memory Use	Pre-allocated	Allocated on demand
+Random Access	Fast (O(1)) 	Slow (O(n))

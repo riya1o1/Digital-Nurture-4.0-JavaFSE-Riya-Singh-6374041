@@ -1,0 +1,27 @@
+How Arrays are Represented in Memory
+-Arrays are stored in contiguous memory locations.
+-Each element can be accessed using an index (0-based).
+-The base address and index allow O(1) time access to any element.
+
+Advantages of Arrays
+-Fast access via index (O(1))
+-Simple to declare and use
+-Good for fixed-size collections where size is known in advance
+
+Analysis
+Operation	Time Complexity	Explanation
+Add	        O(1)	        Insert at next index
+Search	        O(n)	        Linear search through array
+Traverse	O(n)	        Visit each element
+Delete    	O(n)     	Search + shift elements after deletion
+
+Limitations of Arrays
+-Fixed Size:
+Cannot dynamically grow beyond the declared size.
+-Costly Deletion:
+Requires shifting elements → O(n)
+
+When to Use Arrays:
+-When the number of elements is known in advance
+-When random access is frequently needed
+-When memory allocation is limited and controlled

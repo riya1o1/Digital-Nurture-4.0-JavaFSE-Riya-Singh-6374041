@@ -1,0 +1,29 @@
+Linear Search:
+-Checks every element one by one until the target is found or list ends.
+-Does not require sorted data.
+-Time Complexity:
+-Best case: O(1)
+-Average/Worst case: O(n)
+
+
+Binary Search:
+-Works on sorted data.
+-Repeatedly divides the search interval in half.
+-Time Complexity:
+-Best case: O(1)
+-Average/Worst case: O(log n)
+
+
+Analysis:
+Feature	                 Linear Search	          Binary Search
+Time Complexity	         O(n)	                  O(log n)
+Requires Sorted Data     No	                  Yes
+Suitable for	         Small or unsorted data	  Large, sorted data
+Ease of Implementation	 Easy	                  Slightly complex
+
+
+When to Use:
+Use Case	                   Recommended Algorithm
+Small dataset or unsorted list	   Linear Search
+Large and sorted dataset	   Binary Search
+Frequently changing dataset	   Linear Search (no need to re-sort)

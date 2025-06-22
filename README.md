@@ -1,4 +1,6 @@
 # Digital-Nurture-4.0-JavaFSE-Riya-Singh-6374041
+This repository contains weekly hands-on tasks completed as part of the **Java Full Stack Engineer training program** by **Cognizant – Digital Nurture 4.0**.  
+Each week focuses on practical implementation of core concepts in Java, backend development, web technologies, and frameworks.
 
 ## Week 1 - Java FSE Tasks
 

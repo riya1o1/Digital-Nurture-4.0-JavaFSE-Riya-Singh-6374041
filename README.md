@@ -7,8 +7,8 @@ Each week focuses on practical implementation of core concepts in Java, backend 
 - Java programs on data structures, algorithms, and recursion
 
 ### Week 2 - Java FSE Tasks
--JUnit Testing: Unit tests using JUnit 4 (assertions, test methods, etc.)
--PL/SQL Programs(Block structures, loops, exception handling, cursors, and procedures)
+- JUnit Testing: Unit tests using JUnit 4 (assertions, test methods, etc.)
+- PL/SQL Programs(Block structures, loops, exception handling, cursors, and procedures)
   
 ## Submitted by
 Riya Singh  

@@ -9,6 +9,8 @@ Each week focuses on practical implementation of core concepts in Java, backend 
 ### Week 2 - Java FSE Tasks
 - JUnit Testing: Unit tests using JUnit 4 (assertions, test methods, etc.)
 - PL/SQL Programs(Block structures, loops, exception handling, cursors, and procedures)
+- Mockito (Mocking external dependencies and Verifying interactions)
+- SLF4J Logging(Logging messages using SLF4J API and Logback)
   
 ## Submitted by
 Riya Singh  

@@ -88,3 +88,24 @@ public Integer addEmployee(Employee employee) {
     return employeeID;
 }
 
+## 🌱 Spring Data JPA Example
+
+### 📁 Repository Interface
+
+```java
+// EmployeeRepository.java
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+}
+⚙️ Service Class
+java
+Copy
+Edit
+// EmployeeService.java
+@Autowired
+private EmployeeRepository employeeRepository;
+
+@Transactional
+public void addEmployee(Employee employee) {
+    employeeRepository.save(employee); // Auto-handled by Spring Data JPA
+}
+

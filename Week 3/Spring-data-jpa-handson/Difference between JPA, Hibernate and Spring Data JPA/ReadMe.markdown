@@ -88,7 +88,9 @@ public Integer addEmployee(Employee employee) {
     return employeeID;
 }
 
-## 🌱 Spring Data JPA Example
+---
+
+### Spring Data JPA Example
 
 ### 📁 Repository Interface
 

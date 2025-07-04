@@ -1,10 +1,10 @@
-# 🧠 Hands-on 4: Difference Between JPA, Hibernate, and Spring Data JPA
+# Hands-on 4: Difference Between JPA, Hibernate, and Spring Data JPA
 
 This document explains the differences between **JPA**, **Hibernate**, and **Spring Data JPA**, three widely used technologies in Java for managing relational data in applications.
 
 ---
 
-## 📘 Java Persistence API (JPA)
+## Java Persistence API (JPA)
 
 - A **Java specification (JSR 338)** for persisting, reading, and managing data between Java objects and relational databases.
 - Provides **interfaces and annotations**, but **no implementation**.
@@ -13,7 +13,7 @@ This document explains the differences between **JPA**, **Hibernate**, and **Spr
 
 ---
 
-## 🔧 Hibernate
+## Hibernate
 
 - A **powerful ORM framework** that **implements JPA**.
 - Offers features **beyond JPA spec** such as:
@@ -24,7 +24,7 @@ This document explains the differences between **JPA**, **Hibernate**, and **Spr
 
 ---
 
-## 🌱 Spring Data JPA
+## Spring Data JPA
 
 - A **Spring module** that **simplifies JPA usage**.
 - Depends on JPA providers like **Hibernate**.
@@ -36,7 +36,7 @@ This document explains the differences between **JPA**, **Hibernate**, and **Spr
 
 ---
 
-## ⚖️ Key Differences
+## Key Differences
 
 | Feature           | JPA                          | Hibernate                               | Spring Data JPA                                |
 |------------------|------------------------------|-----------------------------------------|------------------------------------------------|
@@ -50,7 +50,7 @@ This document explains the differences between **JPA**, **Hibernate**, and **Spr
 
 ---
 
-## 🔄 How They Work Together
+## How They Work Together
 
 - **JPA**: Defines the **specification and annotations**.
 - **Hibernate**: Implements **JPA** and adds **enhancements**.
@@ -63,7 +63,7 @@ Typical Spring Boot workflow:
 
 ---
 
-## 💻 Code Comparison
+## Code Comparison
 
 ### Hibernate Example
 
@@ -108,7 +108,7 @@ public void addEmployee(Employee employee) {
     employeeRepository.save(employee); // Auto-handled by Spring Data JPA
 }
 ```
-
+---
 ## Behind the Scenes
 - JPA: Specifies contracts (@Entity, @Id, etc.)
 - Hibernate: Implements contracts, performs ORM (e.g., INSERT, UPDATE)
@@ -116,6 +116,8 @@ public void addEmployee(Employee employee) {
 - Generates repository code (e.g., save(), findAll())
 - Delegates to JPA provider (like Hibernate)
 - Manages session and transactions automatically
+
+---
 
 ## Conclusion
 - Use JPA for portable, standard ORM code.

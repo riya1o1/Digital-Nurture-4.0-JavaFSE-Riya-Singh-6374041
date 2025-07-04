@@ -88,20 +88,17 @@ public Integer addEmployee(Employee employee) {
     return employeeID;
 }
 
----
+```
 
 ### Spring Data JPA Example
 
-### 📁 Repository Interface
 
 ```java
 // EmployeeRepository.java
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 }
-⚙️ Service Class
-java
-Copy
-Edit
+```
+```java
 // EmployeeService.java
 @Autowired
 private EmployeeRepository employeeRepository;
@@ -110,4 +107,18 @@ private EmployeeRepository employeeRepository;
 public void addEmployee(Employee employee) {
     employeeRepository.save(employee); // Auto-handled by Spring Data JPA
 }
+```
+
+## Behind the Scenes
+- JPA: Specifies contracts (@Entity, @Id, etc.)
+- Hibernate: Implements contracts, performs ORM (e.g., INSERT, UPDATE)
+- Spring Data JPA:
+- Generates repository code (e.g., save(), findAll())
+- Delegates to JPA provider (like Hibernate)
+- Manages session and transactions automatically
+
+## Conclusion
+- Use JPA for portable, standard ORM code.
+- Use Hibernate when you need advanced ORM features or are not using Spring.
+- Use Spring Data JPA for simplified data access in Spring applications, leveraging Hibernate as the JPA provider.
 

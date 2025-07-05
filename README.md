@@ -11,7 +11,12 @@ Each week focuses on practical implementation of core concepts in Java, backend 
 - PL/SQL Programs(Block structures, loops, exception handling, cursors, and procedures)
 - Mockito (Mocking external dependencies and Verifying interactions)
 - SLF4J Logging(Logging messages using SLF4J API and Logback)
-  
+
+### Week 3 - Java FSE Tasks
+- Spring Core: Use @Component, @Autowired for DI
+- Maven: Create a project, add Spring dependencies
+- Spring Data JPA: Create entity, repository, do basic CRUD
+
 ## Submitted by
 Riya Singh  
 Superset ID: 6374041  
